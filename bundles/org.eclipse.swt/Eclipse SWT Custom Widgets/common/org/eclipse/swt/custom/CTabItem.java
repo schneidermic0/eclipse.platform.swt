@@ -286,9 +286,9 @@ public boolean getShowClose() {
  *
  * @since 3.129
  */
-public boolean getShowDirty() {
+public boolean isShowDirty() {
 	checkWidget();
-	return showClose;
+	return showDirty;
 }
 
 /**
